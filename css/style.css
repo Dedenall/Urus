@@ -106,3 +106,70 @@ button {
   bottom: 0;
   margin: auto;
 }
+
+.info {
+  background-color: #f8f8f8;
+}
+
+.info {
+  padding: 170px 0;
+}
+
+.info__title {
+  font-size: 160px;
+  text-align: center;
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+.info__img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.info__content {
+  display: flex;
+  padding-left: 155px;
+  padding-right: 100px;
+  margin-bottom: 170px;
+  gap: 94px;
+}
+
+.info__list {
+  column-count: 2;
+  gap: 140px;
+}
+
+.info__list dt,
+.info__list dd {
+  display: inline-block;
+}
+
+.info__list-line {
+  margin-bottom: 22px;
+}
+
+.price {
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+
+.order {
+  padding: 30px 60px;
+  background: linear-gradient(181.77deg, #ff5017 2.24%, #ff6837 99.25%);
+  font-family: "Inter", serif;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.info__gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.info__gallery img {
+  max-width: 100%;
+}
